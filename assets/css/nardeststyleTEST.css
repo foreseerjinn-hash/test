@@ -96,15 +96,6 @@ h1 {
   background-blend-mode: darken;
 }
 
-.intro {
-  font-family: prince valiant;
-  color: #FAEBD7;
-  letter-spacing: 9px;
-  text-shadow: 2px 7px 5px sandybrown;
-  filter: blur(1px) invert(100%);
-  bottom: 690px;
-}
-
 .intropar {  
   font-family: Noto Sans Light;
   color: #cdd6ff;
@@ -469,16 +460,6 @@ h1 {
 .div5 {
   height: 30% !important;
   top: 90px !important;
-}
-
-.intro {
-  position: absolute;
-  font-family: prince valiant;
-  color: #FAEBD7;
-  letter-spacing: 9px;
-  text-shadow: 2px 7px 6px #272b2d;
-  filter: blur(1px) invert(100%);
-  bottom: 690px;
 }
 
 .intropar {  
