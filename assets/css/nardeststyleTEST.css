@@ -90,7 +90,7 @@ h1 {
   bottom: 60px;
   box-shadow: 20px 40px 100px #222629, 
               -20px -40px 150px #222629;
-  background-image: url("/../images/upscalemedia-transformed.png");
+  background-image: url("Images/upscalemedia-transformed.png");
   background-repeat: no-repeat;
   background-size: cover;  
   background-blend-mode: darken;
