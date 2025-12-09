@@ -849,8 +849,8 @@ h1 {
   height: 30% !important;
 }
 
- body {
-  filter: contrast(70%);
+body {
+  filter: contrast(80%);
   opacity: 100%;
   background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
@@ -860,8 +860,10 @@ h1 {
 
 .title {   
   letter-spacing: 12px;
+  font-family: Alte Haas Grotesk;
   text-shadow: 50px 25px 8px #646e91, 
                10px 10px 7px #222629; 
+  opacity: 70%;
   filter: blur(2.7px);
 }
 
@@ -947,6 +949,7 @@ h1 {
 }
 
 .accordion-header {
+    font-family: Alte Haas Grotesk;
     background: transparent !important;
     opacity: 80%;
     width: 75%;
