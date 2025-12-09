@@ -956,9 +956,9 @@ h1 {
 }
 
 .accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 7px;
-    font-size: 5vh;
+    font-family: Alte Haas Grotesk;
+    letter-spacing: 10px;
+    font-size: 7vh;
     filter: blur(1.5px);
     background: transparent !important;
     color: #7b8aba !important;
