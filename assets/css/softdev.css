@@ -3,7 +3,7 @@
   filter: contrast(70%);
   opacity: 100%;
   background-blend-mode: color-dodge, screen;
-  background-image: url("/.../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-repeat: no-repeat;
   background-size: cover; 
 }
