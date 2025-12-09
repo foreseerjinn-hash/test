@@ -376,17 +376,17 @@ p {
 }
 
  body {
-  filter: contrast(70%);
+  filter: contrast(80%);
   opacity: 100%;
-  background-blend-mode: color-dodge, 
-                         screen;
-  background: url("Images/oil3.jpg") 
-              no-repeat;
+  background-image: url("Images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
   background-size: cover; 
 }
 
 .title {   
   letter-spacing: 12px;
+  font-family: Alte Haas Grotesk;
   text-shadow: 50px 25px 8px #646e91, 
                10px 10px 7px #222629; 
   opacity: 70%;
