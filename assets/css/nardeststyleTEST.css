@@ -378,7 +378,11 @@ p {
  body {
   filter: contrast(70%);
   opacity: 100%;
-  background-image: url("/../images/oil3.jpg");
+  background-blend-mode: color-dodge, 
+                         screen;
+  background: url("Images/oil3.jpg") 
+              no-repeat;
+  background-size: cover; 
 }
 
 .title {   
@@ -461,6 +465,10 @@ h1 {
 .div5 {
   height: 30% !important;
   top: 90px !important;
+  background-image: url("Images/upscalemediatransformed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-blend-mode: darken;
 }
 
 .intropar {  
