@@ -434,6 +434,7 @@ p {
 
 .title {   
   letter-spacing: 12px;
+  font-family: Alte Haas Grotesk;
   text-shadow: 50px 25px 8px #646e91, 
                10px 10px 7px #222629; 
   opacity: 70%;
