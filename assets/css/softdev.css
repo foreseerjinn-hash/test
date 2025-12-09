@@ -1,0 +1,1034 @@
+ 
+ body {
+  filter: contrast(70%);
+  opacity: 100%;
+  background-blend-mode: color-dodge, screen;
+  background-image: url("/.../Images/oil3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 30px 20px 8px #646e91, 
+               10px 10px 70px #222629; 
+  opacity: 70%;
+  filter: blur(1.5px);
+}
+
+h1 {
+  font-size: 4vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 4vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+  opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+}
+
+.div2 {
+    cursor: pointer;
+    z-index: 10000;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
+    color: #646e8f;
+}
+
+.accordion-header {
+    background: transparent !important;
+    opacity: 80%;
+}
+
+.accordion-button {
+    font-family: akira expanded;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    filter: blur(0.8px);
+    background: transparent !important;
+    color: #7b8aba !important;
+    text-shadow: 4px 3px 10px #6b7edb, 
+                 2px 5px 3px #222629 !important; 
+}
+
+.accordion-body {
+  font-family: noto sans light;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2.5px;
+  font-size: 1.7vh;
+  background: transparent;
+  opacity: 70%;
+  max-height: 43vh;
+}
+
+.accordion-collapse:active {
+  background: transparent !important;
+  color: #8598d7 !important;
+}
+
+.accordion-body a{
+  text-decoration: none;
+  color: #a6b5ff;
+}
+
+.accordion-body a:hover {
+  font-weight: bold;
+  color: #e9eeff;
+  text-shadow: 1px 2px 3px #90a4ff, 
+                 1px 1px 7px #eaf6ff !important; 
+}
+
+.vidHTML {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.vidCSS {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.foot {
+  font-family: monospace;
+  font-size: 2vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 576px) { 
+  
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+ body {
+  filter: contrast(70%);
+  opacity: 100%;
+  background-image: url("/../Images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 30px 20px 8px #646e91, 
+               10px 10px 70px #222629; 
+  opacity: 70%;
+  filter: blur(1.5px);
+}
+
+h1 {
+  font-size: 4vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 4vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+  opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+}
+
+.div2 {
+    cursor: pointer;
+    z-index: 10000;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
+    color: #646e8f;
+}
+
+.accordion-header {
+    background: transparent !important;
+    opacity: 80%;
+}
+
+.accordion-button {
+    font-family: akira expanded;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    filter: blur(0.8px);
+    background: transparent;
+    color: #7b8aba;
+    text-shadow: 4px 3px 10px #6b7edb, 
+                 2px 5px 3px #222629 !important; 
+}
+
+.accordion-body {
+  font-family: noto sans light;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2.5px;
+  font-size: 1.7vh;
+  background: transparent;
+  opacity: 70%;
+  max-height: 43vh;
+}
+
+.accordion-collapse:active {
+  background: transparent !important;
+  color: #646e8f !important;
+}
+
+.vidHTML {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.vidCSS {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.foot {
+  font-family: monospace;
+  font-size: 2vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 768px) { 
+  
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+ body {
+  filter: contrast(70%);
+  opacity: 100%;
+  background-image: url("/../images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 30px 20px 8px #646e91, 
+               10px 10px 70px #222629; 
+  opacity: 70%;
+  filter: blur(1.5px);
+}
+
+h1 {
+  font-size: 4vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 4vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+  opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+}
+
+.div2 {
+    cursor: pointer;
+    z-index: 10000;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
+    color: #646e8f;
+}
+
+.accordion-header {
+    background: transparent !important;
+    opacity: 80%;
+}
+
+.accordion-button {
+    font-family: akira expanded;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    filter: blur(0.8px);
+    background: transparent;
+    color: #7b8aba;
+    text-shadow: 4px 3px 10px #6b7edb, 
+                 2px 5px 3px #222629 !important; 
+}
+
+.accordion-body {
+  font-family: noto sans light;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2.5px;
+  font-size: 1.7vh;
+  background: transparent;
+  opacity: 70%;
+  max-height: 43vh;
+}
+
+.accordion-collapse:active {
+  background: transparent !important;
+  color: #646e8f !important;
+}
+
+.vidHTML {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.vidCSS {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.foot {
+  font-family: monospace;
+  font-size: 2vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 992px) { 
+
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+ body {
+  filter: contrast(70%);
+  opacity: 100%;
+  background-image: url("/../Images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 30px 20px 8px #646e91, 
+               10px 10px 70px #222629; 
+  opacity: 70%;
+  filter: blur(1.5px);
+}
+
+h1 {
+  font-size: 4vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 4vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+  opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+}
+
+.div2 {
+    cursor: pointer;
+    z-index: 10000;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
+    color: #646e8f;
+}
+
+.accordion-header {
+    background: transparent !important;
+    opacity: 80%;
+}
+
+.accordion-button {
+    font-family: akira expanded;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    filter: blur(0.8px);
+    background: transparent;
+    color: #7b8aba;
+    text-shadow: 4px 3px 10px #6b7edb, 
+                 2px 5px 3px #222629 !important; 
+}
+
+.accordion-body {
+  font-family: noto sans light;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2.5px;
+  font-size: 1.7vh;
+  background: transparent;
+  opacity: 70%;
+  max-height: 43vh;
+}
+
+.accordion-collapse:active {
+  background: transparent !important;
+  color: #646e8f !important;
+}
+
+.vidHTML {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.vidCSS {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.foot {
+  font-family: monospace;
+  font-size: 2vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 1200px) { 
+
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+ body {
+  filter: contrast(70%);
+  opacity: 100%;
+  background-image: url("/../Images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 30px 20px 8px #646e91, 
+               10px 10px 70px #222629; 
+  opacity: 70%;
+  filter: blur(1.5px);
+}
+
+h1 {
+  font-size: 4vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 4vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+  opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+}
+
+.div2 {
+    cursor: pointer;
+    z-index: 10000;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
+    color: #646e8f;
+}
+
+.accordion-header {
+    background: transparent !important;
+    opacity: 80%;
+}
+
+.accordion-button {
+    font-family: akira expanded;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    filter: blur(0.8px);
+    background: transparent;
+    color: #7b8aba;
+    text-shadow: 4px 3px 10px #6b7edb, 
+                 2px 5px 3px #222629 !important; 
+}
+
+.accordion-body {
+  font-family: noto sans light;
+  text-align: justify;
+  color: #fff;
+  letter-spacing: 2.5px;
+  font-size: 1.7vh;
+  background: transparent;
+  opacity: 70%;
+  max-height: 43vh;
+}
+
+.accordion-collapse:active {
+  background: transparent !important;
+  color: #646e8f !important;
+}
+
+.vidHTML {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.vidCSS {
+  width: 60vw;
+  height: 70vh;
+  filter: invert(100%);
+}
+
+.foot {
+  font-family: monospace;
+  font-size: 2vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 1400px) { 
+  
+.vh-100 {
+  height: 110vh !important;
+}
+
+.h-100 {
+  height: 110vh !important;
+}
+
+.h-25 {
+  height: 10% !important;
+}
+
+.h-75 {
+  height: 30% !important;
+}
+
+ body {
+  filter: contrast(70%);
+  opacity: 100%;
+  background-image: url("/../Images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 50px 25px 8px #646e91, 
+               10px 10px 7px #222629; 
+  opacity: 70%;
+  filter: blur(2px);
+}
+
+h1 {
+  font-size: 8vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 1.3vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 5px;
+  text-shadow: 3px 5px 8px #96a3e8, 
+               2px 5px 3px #222629 !important; 
+  filter: blur(1px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+  top: 100px;
+}
+
+.div2 {
+    cursor: pointer;
+    z-index: 10000;
+    text-align: center;
+}
+
+.accordion-item {
+    border: none;
+    background: transparent;
+    color: #646e8f;
+}
+
+.accordion-header {
+    background: transparent !important;
+    opacity: 80%;
+    width: 75%;
+}
+
+.accordion-button {
+    font-family: akira expanded;
+    letter-spacing: 7px;
+    font-size: 5vh;
+    filter: blur(1.5px);
+    background: transparent !important;
+    color: #7b8aba !important;
+    text-shadow: 7px 5px 20px #6b7edb, 
+                 2px 6px 5px #222629 !important; 
+}
+
+.accordion-body {
+  font-family: noto sans light;
+  text-align: justify;
+  color: #fff;
+  text-shadow: 2px 2px 7px #bdc9ff, 
+                 2px 6px 5px #222629 !important; 
+  letter-spacing: 2.5px;
+  font-size: 1.9vh;
+  background: transparent;
+  opacity: 70%;
+  max-height: 50vh;
+  width: 75% !important;
+}
+
+.accordion-collapse:active {
+  background: transparent !important;
+  color: #8598d7 !important;
+}
+
+.accordion-body a{
+  text-decoration: none;
+  color: #a6b5ff;
+}
+
+.accordion-body a:hover {
+  font-weight: bold;
+  color: #e9eeff;
+  text-shadow: 1px 2px 3px #90a4ff, 
+                 1px 1px 7px #eaf6ff !important; 
+}
+
+.vidHTML {
+  width: 40vw !important;
+  height: 30vh !important;
+  filter: invert(100%);
+}
+
+.vidCSS {
+  width: 40vw !important;
+  height: 30vh !important;
+  filter: invert(100%);
+}
+
+.foot {
+  font-family: monospace;
+  font-size: 1.5vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  letter-spacing: 0.5px;
+  bottom: -130px;
+}
+
+}
+
+@include media-breakpoint-up(xs) {}
+
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}
+
+@include media-breakpoint-up(xxl) {}

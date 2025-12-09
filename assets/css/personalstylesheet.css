@@ -1,0 +1,519 @@
+
+body {
+  filter: contrast(80%);
+  opacity: 100%;
+  background-image: url("/../images/oil3.jpg");
+  background-blend-mode: color-dodge, screen;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.title {   
+  color: #a8afff;
+  font-family: Akira Expanded;
+  letter-spacing: 10px;
+  text-shadow: 30px 20px 8px #646e91, 
+               10px 10px 70px #222629; 
+  opacity: 70%;
+  filter: blur(1.5px);
+}
+
+h1 {
+  font-size: 4vh !important;
+}
+
+.link a{
+  font-family: Noto Sans Light;
+  color: #cdd6ff;
+  font-size: 4vw !important;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
+  opacity: 110%;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, 
+  opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.hrClass {
+  border-color: #3b4f5f !important;
+}
+
+.div3 {
+  filter: blur(0px);
+  opacity: 70% !important;
+  left: 8px;
+}
+
+.col1 {
+  opacity: 70%;
+}
+
+.col2 {
+  opacity: 70%;
+}
+
+.col3 {
+  opacity: 70%;
+}
+
+.foot {
+  font-family: monospace;
+  color: #cdd6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
+  opacity: 60%;
+  letter-spacing: 0.5px;
+}
+
+.footpar {
+  font-size: 1vh !important;
+}
+
+@media (min-width: 576px) { 
+  
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.title {   
+  letter-spacing: 10px;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+.link a{
+  text-align: left;
+  letter-spacing: 4px;
+  font-size: 1.8vh;
+}
+
+.h-75 {
+  height: 60% !important;
+}
+
+.overlay {
+  height: 100%;
+}
+
+.intro {
+  letter-spacing: 2px;
+  left: 200px;
+}
+
+p {
+  font-size: 1.8vh !important;
+  letter-spacing: 1px;
+}
+
+.foot {
+  font-size: 1vh !important;
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 768px) { 
+  
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.title {   
+  letter-spacing: 10px;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+.link a{
+  text-align: left;
+  letter-spacing: 4px;
+  font-size: 1.8vh;
+}
+
+.h-75 {
+  height: 60% !important;
+}
+
+.overlay {
+  height: 100%;
+}
+
+.intro {
+  letter-spacing: 2px;
+  left: 200px;
+}
+
+p {
+  font-size: 1.8vh !important;
+  letter-spacing: 1px;
+}
+
+.foot {
+  font-size: 1vh !important;
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 992px) { 
+
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.title {   
+  letter-spacing: 10px;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+.link a{
+  text-align: left;
+  letter-spacing: 4px;
+  font-size: 1.8vh;
+}
+
+.h-75 {
+  height: 60% !important;
+}
+
+.overlay {
+  height: 100%;
+}
+
+.intro {
+  letter-spacing: 2px;
+  left: 200px;
+}
+
+p {
+  font-size: 1.8vh !important;
+  letter-spacing: 1px;
+}
+
+.foot {
+  font-size: 1vh !important;
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 1200px) { 
+
+.vh-100 {
+  height: 200vh !important;
+}
+
+.h-100 {
+  height: 200vh !important;
+}
+
+.title {   
+  letter-spacing: 10px;
+}
+
+.h-25 {
+  height: 20% !important;
+}
+
+h1 {
+  font-size: 8vh;
+}
+
+.link a{
+  text-align: left;
+  letter-spacing: 4px;
+  font-size: 2.5vh !important;
+}
+
+#link1 { 
+  opacity: 0%;
+  font-size: 0.5vh !important;
+  transition: left 1s, 
+              opacity 2s;
+}
+
+.link:hover > #link1 {
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link2 {
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 { 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 2s;
+}
+
+.link:hover > #link3 {
+  opacity: 80%;
+  width: 70%;
+}
+
+.h-75 {
+  height: 60% !important;
+}
+
+.overlay {
+  height: 100%;
+}
+
+.intro {
+  letter-spacing: 2px;
+  left: 200px;
+  height: 75% !important;
+}
+
+p {
+  font-size: 1.8vh !important;
+  letter-spacing: 1px;
+}
+
+.foot {
+  font-size: 1vh !important;
+  letter-spacing: 0.5px;
+}
+
+}
+
+@media (min-width: 1400px) { 
+  
+.vh-100 {
+  height: 180vh !important;
+}
+
+.h-100 {
+  height: 180vh !important;
+}
+
+.h-75 {
+  height: 30% !important;
+}
+
+.h-25 {
+  height: 10% !important;
+}
+
+.title {   
+  letter-spacing: 10px;
+  text-shadow: 50px 25px 8px #646e91, 
+               10px 10px 7px #222629; 
+  opacity: 70%;
+  filter: blur(2px);
+}
+
+h1 {
+  font-size: 8vh !important;
+}
+
+.link a{
+  letter-spacing: 6px;
+  font-size: 1.5vh;
+}
+
+#link1 { 
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, opacity 2s;
+}
+
+.link:hover > #link1 {
+  transition: left 1s, opacity 2s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link2 {
+  left: -100px;
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 0.5s;
+}
+
+.link:hover > #link2 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 0.5s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+#link3 {
+  left: -100px; 
+  opacity: 0%;
+  transition: left 1s, 
+              opacity 2s;
+  transition-delay: 1s;
+}
+
+.link:hover > #link3 {
+  transition: left 1s, opacity 2s;
+  transition-delay: 1s;
+  left: 0;
+  opacity: 80%;
+  width: 70%;
+}
+
+.overlay {
+  filter: blur(0px);
+  opacity: 70% !important;
+}
+
+.div2 {
+  filter: blur(0px);
+  opacity: 70% !important;
+}
+
+.col1 {
+  opacity: 70%;
+  height: 100%;
+}
+
+.col2 {
+  opacity: 70%;
+  height: 100%;
+}
+
+.col3 {
+  opacity: 70%;
+  height: 100%;
+}
+
+.carous1 {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+img {
+  height: 50vh;
+}
+
+.carousel-item {
+  width: 50vw !important;
+  left: 350px;
+}
+
+.intro {
+  letter-spacing: 2px;
+  top: 213px;
+  height: 75% !important;
+}
+
+p {
+  font-size: 2vh !important;
+  letter-spacing: 1px;
+}
+
+.foot {
+  font-size: 0.5vh !important;
+  letter-spacing: 0.5px;
+}
+
+}
+
+@include media-breakpoint-up(xs) {}
+
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}
+
+@include media-breakpoint-up(xxl) {}

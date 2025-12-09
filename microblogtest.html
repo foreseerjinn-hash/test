@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>
+   Just A Baby
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+     "width=device-width, initial-scale=1">
+
+<script>
+
+let input;
+let p;
+let itemsArray;
+
+function myFunction() {
+  alert(document.getElementById("inputval").value)
+}
+
+function initialise()
+{
+  input=document.getElementById('inputval');
+  p=document.querySelector('p');
+
+  itemsArray = localStorage.getItem('items') ?
+  JSON.parse(localStorage.getItem('items')) : [];
+
+  itemsArray.forEach(addTask);
+}
+
+function addTask(text) {
+  const newParagraph = document.createElement('p');
+  newParagraph.textContent = text;
+  p.appendChild(newParagraph);
+}
+
+function add(){
+  itemsArray.push(input.value);
+  localStorage.setItem('items', JSON.stringify(itemsArray));
+  addTask(input.value);
+  input.value = '';
+}
+
+function del(){
+  localStorage.clear();
+  p.innerHTML = '';
+  itemsArray = [];
+}
+
+</script>
+</head>
+<body>
+
+<div class="container">
+
+ <div class="div3">
+  <div class="statusupd">
+    <input type="text" id="inputval" name="inputval" placeholder="Enter item...">
+      <br>
+      <br>
+    <button onclick="add()" style="background-color: coral;border: double;border-color: sandybrown;border-radius: 5px;color: white;text-align: center;text-decoration: none;padding: 5px;display: inline-block;">
+     Add Item 
+      <i class="fa-solid fa-plus">
+      </i>     
+    </button>
+    <button onclick="del()" style="background-color: coral;border: double;border-color: sandybrown;border-radius: 5px;color: white;text-align: center;text-decoration: none;padding: 5px;display: inline-block;">
+     Clear all 
+      <i class="fa-solid fa-ban">
+      </i>
+    </button>
+  </div>
+ </div>
+
+</div>
+
+</body>
+</html>
