@@ -10,7 +10,7 @@ body {
 
 .title {   
   color: #a8afff;
-  font-family: Akira Expanded;
+  font-family: Alte Haas Grotesk;
   letter-spacing: 10px;
   text-shadow: 30px 20px 8px #646e91, 
                10px 10px 70px #222629; 
@@ -112,7 +112,7 @@ h1 {
 }
 
 .head {
-  font-family: Akira Expanded;
+  font-family: Alte Haas Grotesk;
 }
 
 h4 {
@@ -382,16 +382,17 @@ p {
 }
 
 .title {   
-    letter-spacing: 10px;
+  letter-spacing: 12px;
   text-shadow: 50px 25px 8px #646e91, 
                10px 10px 7px #222629; 
-  filter: blur(2px);
+  opacity: 70%;
+  filter: blur(2.7px);
 }
 
 h1 {
-  font-size: 8vh !important;
+  font-size: 10vh !important;
 }
-
+  
 .link a{
  font-family: Noto Sans;
   color: #cdd6ff;
