@@ -5,8 +5,11 @@ Welcome to my first website! I have been learning software development, with a f
 
 After 6 revamps, I believe the site is close to being a finished product, however I am aware of the necessary changes and will make this my target over the next few weeks.
 
-I will primarily be looking to correct the UX for the mobile design, having tested this myself I can see the UX I currently have is incompatible.
-Additionally, the "personal" page is under development and so I have temporarily removed the functioning link for that page.
+*Update 1*:
+The mobile/phone viewport UX issues have been resolved! The navigation links should be fully accessible now.
+
+*Note*:
+The "personal" page is under development and so I have temporarily removed the functioning link for that page.
 
 I primarily used Bootstrap and SCSS/SASS libraries for the UI/UX and overall design.
 
