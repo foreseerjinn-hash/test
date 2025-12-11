@@ -2,7 +2,7 @@
 body {
   filter: contrast(80%);
   opacity: 100%;
-  background-image: url(".../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -10,16 +10,16 @@ body {
 
 .title {   
   color: #a8afff;
-  font-family: Akira Expanded;
-  letter-spacing: 10px;
+  font-family: Alte Haas Grotesk;
+  letter-spacing: 7px;
   text-shadow: 30px 20px 8px #646e91, 
-               10px 10px 70px #222629; 
-  opacity: 70%;
+               10px 10px 70px #9ca8f3; 
+  opacity: 60%;
   filter: blur(1.5px);
 }
 
 h1 {
-  font-size: 4vh !important;
+  font-size: 6.5vh !important;
 }
 
 .link a{
@@ -37,49 +37,46 @@ h1 {
 }
 
 #link1 { 
-  left: -100px;
+  animation-name: link1;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes link1 {
+  from {left: -100px;
+        opacity: 0%;}
+  to {left: 0;
+      opacity: 100%;}
+}
+
+#link2 { 
   opacity: 0%;
-  transition: left 1s, opacity 2s;
+  animation-name: link2;
+  animation-duration: 1.8s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
 }
 
-.link:hover > #link1 {
-  transition: left 1s, opacity 2s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+@keyframes link2 {
+  from {left: -100px;
+        opacity: 0%;}
+  to {left: 0;
+      opacity: 100%;}
 }
 
-#link2 {
-  left: -100px;
+#link3 { 
   opacity: 0%;
-  transition: left 1s, 
-              opacity 2s;
-  transition-delay: 0.5s;
+  animation-name: link3;
+  animation-duration: 1.8s;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
 }
 
-.link:hover > #link2 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 0.5s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
-}
-
-#link3 {
-  left: -100px; 
-  opacity: 0%;
-  transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
-}
-
-.link:hover > #link3 {
-  transition: left 1s, 
-  opacity 2s;
-  transition-delay: 1s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+@keyframes link3 {
+  from {left: -100px;
+        opacity: 0%;}
+  to {left: 0;
+      opacity: 100%;}
 }
 
 .hrClass {
@@ -107,40 +104,34 @@ h1 {
 .intro {
   font-family: Noto Sans Light;
   color: #cdd6ff;
-  text-shadow: 5px 3px 5px #353d84,
-               -5px -3px 5px #353d84;
+  text-shadow: 2px 1px 9px #cdd6ff,
+               -2px -1px 9px #cdd6ff;
   box-shadow: 20px -20px 300px #4a5262,
-              200px 300px 200px #22292e;
+              200px 300px 200px #22292e,
+              0 0 10px #22292e;
   letter-spacing: 2px;
   left: 200px;
   opacity: 0%;
   transition: .5s ease;
   transition-delay: 1s;
   background-color: #212529;
-}
-
-.introOverlay::after {
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  border: 15px solid transparent;
-  backdrop-filter: blur(2px) contrast(90%);
-  pointer-events: none;
+  width: 300px;
+  height: 150px;
+  border-radius: 8px;
 }
 
 .header1 {
-  font-family: akira expanded;
-  text-shadow: 50px 10px 10px #353d84,
+  font-family: Alte Haas Grotesk;
+  text-shadow: 5px 5px 10px #4952a7,
                -5px -3px 8px #2b2f31;
+  filter: blur(1.2px);
 }
 
-p {
+.para {
   text-align: justify;
   font-size: 1.8vh !important;
   letter-spacing: 1px;
+  filter: blur(0.5px);
 }
 
 .overlay:hover .carousel-inner {
@@ -148,17 +139,17 @@ p {
 }
 
 .overlay:hover .intro {
-  opacity: 60% !important;
+  opacity: 90% !important;
 }
 
 .foot {
   font-family: monospace;
-  font-size: 1vh !important;
-  color: #cdd6ff;  
+  font-size: 1.5vh !important;
+  color: #cde6ff;  
   filter: blur(0.7px) 
           contrast(110%);
-  opacity: 60%;
   letter-spacing: 0.5px;
+  bottom: -60px;
 }
 
 @media (min-width: 576px) { 
@@ -169,6 +160,16 @@ p {
 
 .h-100 {
   height: 200vh !important;
+}
+
+body {
+  filter: contrast(80%);
+  opacity: 100%;
+  background-blend-mode: color-dodge, 
+                         screen;
+  background: url("Images/oil3.jpg") 
+              no-repeat;
+  background-size: cover; 
 }
 
 .title {   
@@ -224,6 +225,16 @@ p {
   height: 200vh !important;
 }
 
+body {
+  filter: contrast(80%);
+  opacity: 100%;
+  background-blend-mode: color-dodge, 
+                         screen;
+  background: url("Images/oil3.jpg") 
+              no-repeat;
+  background-size: cover; 
+}
+
 .title {   
   letter-spacing: 10px;
 }
@@ -275,6 +286,16 @@ p {
 
 .h-100 {
   height: 200vh !important;
+}
+
+body {
+  filter: contrast(80%);
+  opacity: 100%;
+  background-blend-mode: color-dodge, 
+                         screen;
+  background: url("Images/oil3.jpg") 
+              no-repeat;
+  background-size: cover; 
 }
 
 .title {   
@@ -330,6 +351,16 @@ p {
   height: 200vh !important;
 }
 
+body {
+  filter: contrast(80%);
+  opacity: 100%;
+  background-blend-mode: color-dodge, 
+                         screen;
+  background: url("Images/oil3.jpg") 
+              no-repeat;
+  background-size: cover; 
+}
+
 .title {   
   letter-spacing: 10px;
 }
@@ -349,39 +380,52 @@ h1 {
 }
 
 #link1 { 
-  opacity: 0%;
-  font-size: 0.5vh !important;
+  left: -100px !important;
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
+              opacity 2s !important;
 }
 
 .link:hover > #link1 {
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link2 {
-  opacity: 0%;
+  left: -100px !important;
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
 }
 
 .link:hover > #link2 {
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
-#link3 { 
-  opacity: 0%;
+#link3 {
+  left: -100px !important; 
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 2s;
+              opacity 2s !important;
+  transition-delay: 1s !important;
 }
 
 .link:hover > #link3 {
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 .h-75 {
@@ -433,65 +477,80 @@ p {
 }
 
 .title {   
-  letter-spacing: 10px;
+  letter-spacing: 12px;
   text-shadow: 50px 25px 8px #646e91, 
                10px 10px 7px #222629; 
-  opacity: 70%;
-  filter: blur(2px);
+  opacity: 60%;
+  filter: blur(2.5px);
 }
 
 h1 {
-  font-size: 8vh !important;
+  font-size: 10vh !important;
 }
 
 .link a{
+  font-family: Noto Sans Light;
   letter-spacing: 6px;
   font-size: 1.5vh;
+  color: #cdd6ff;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               2px 2px 6px #222629 !important; 
+  filter: blur(0.8px) 
+          contrast(110%);
 }
 
 #link1 { 
-  left: -100px;
-  opacity: 0%;
-  transition: left 1s, opacity 2s;
+  left: -100px !important;
+  opacity: 0% !important;
+  transition: left 1s, 
+              opacity 2s !important;
+  animation: none !important;
 }
 
-.link:hover > #link1 {
-  transition: left 1s, opacity 2s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+#link1:hover {
+  transition: left 1s, 
+              opacity 2s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link2 {
-  left: -100px;
-  opacity: 0%;
+  left: -100px !important;
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 0.5s;
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  animation: none !important;
 }
 
 .link:hover > #link2 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 0.5s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link3 {
-  left: -100px; 
-  opacity: 0%;
+  left: -100px !important; 
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  animation: none !important;
 }
 
 .link:hover > #link3 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 1s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 .overlay {
@@ -507,7 +566,7 @@ h1 {
 }
 
 img {
-  height: 50vh;
+  height: 40vh;
 }
 
 .carousel-item {
@@ -522,8 +581,13 @@ img {
 }
 
 .foot {
-  font-size: 0.2vh !important;
+  font-family: monospace;
+  font-size: 1.5vh !important;
+  color: #cde6ff;  
+  filter: blur(0.7px) 
+          contrast(110%);
   letter-spacing: 0.5px;
+  bottom: 40px;
 }
 
 }

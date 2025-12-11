@@ -3,23 +3,23 @@
   filter: contrast(70%);
   opacity: 100%;
   background-blend-mode: color-dodge, screen;
-  background-image: url("/.../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 .title {   
   color: #a8afff;
-  font-family: Akira Expanded;
-  letter-spacing: 10px;
+  font-family: Alte Haas Grotesk;
+  letter-spacing: 7px;
   text-shadow: 30px 20px 8px #646e91, 
-               10px 10px 70px #222629; 
-  opacity: 70%;
+               10px 10px 70px #9ca8f3; 
+  opacity: 60%;
   filter: blur(1.5px);
 }
 
 h1 {
-  font-size: 4vh !important;
+  font-size: 6.5vh !important;
 }
 
 .link a{
@@ -37,49 +37,46 @@ h1 {
 }
 
 #link1 { 
-  left: -100px;
+  animation-name: link1;
+  animation-duration: 1.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes link1 {
+  from {left: -100px;
+        opacity: 0%;}
+  to {left: 0;
+      opacity: 100%;}
+}
+
+#link2 { 
   opacity: 0%;
-  transition: left 1s, opacity 2s;
+  animation-name: link2;
+  animation-duration: 1.8s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
 }
 
-.link:hover > #link1 {
-  transition: left 1s, opacity 2s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+@keyframes link2 {
+  from {left: -100px;
+        opacity: 0%;}
+  to {left: 0;
+      opacity: 100%;}
 }
 
-#link2 {
-  left: -100px;
+#link3 { 
   opacity: 0%;
-  transition: left 1s, 
-              opacity 2s;
-  transition-delay: 0.5s;
+  animation-name: link3;
+  animation-duration: 1.8s;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
 }
 
-.link:hover > #link2 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 0.5s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
-}
-
-#link3 {
-  left: -100px; 
-  opacity: 0%;
-  transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
-}
-
-.link:hover > #link3 {
-  transition: left 1s, 
-  opacity 2s;
-  transition-delay: 1s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+@keyframes link3 {
+  from {left: -100px;
+        opacity: 0%;}
+  to {left: 0;
+      opacity: 100%;}
 }
 
 .hrClass {
@@ -104,20 +101,23 @@ h1 {
 }
 
 .accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 3px;
-    font-size: 4vh;
+    font-family: Alte Haas Grotesk;
+    letter-spacing: 7px;
+    font-size: 5vh;
     filter: blur(0.8px);
     background: transparent !important;
     color: #7b8aba !important;
-    text-shadow: 4px 3px 10px #6b7edb, 
-                 2px 5px 3px #222629 !important; 
+    text-shadow: 5px 5px 10px #4952a7,
+               -5px -3px 8px #2b2f31; !important; 
 }
 
 .accordion-body {
   font-family: noto sans light;
+  text-shadow: 2px 1px 9px #cdd6ff,
+               -2px -1px 9px #cdd6ff;
+  filter: blur(0.5px);
   text-align: justify;
-  color: #fff;
+  color: #cdd6ff;
   letter-spacing: 2.5px;
   font-size: 1.7vh;
   background: transparent;
@@ -176,7 +176,7 @@ h1 {
  body {
   filter: contrast(70%);
   opacity: 100%;
-  background-image: url("/../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -275,17 +275,6 @@ h1 {
 .accordion-header {
     background: transparent !important;
     opacity: 80%;
-}
-
-.accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 3px;
-    font-size: 4vh;
-    filter: blur(0.8px);
-    background: transparent;
-    color: #7b8aba;
-    text-shadow: 4px 3px 10px #6b7edb, 
-                 2px 5px 3px #222629 !important; 
 }
 
 .accordion-body {
@@ -344,7 +333,7 @@ h1 {
  body {
   filter: contrast(70%);
   opacity: 100%;
-  background-image: url("/../images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -443,17 +432,6 @@ h1 {
 .accordion-header {
     background: transparent !important;
     opacity: 80%;
-}
-
-.accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 3px;
-    font-size: 4vh;
-    filter: blur(0.8px);
-    background: transparent;
-    color: #7b8aba;
-    text-shadow: 4px 3px 10px #6b7edb, 
-                 2px 5px 3px #222629 !important; 
 }
 
 .accordion-body {
@@ -512,7 +490,7 @@ h1 {
  body {
   filter: contrast(70%);
   opacity: 100%;
-  background-image: url("/../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -611,17 +589,6 @@ h1 {
 .accordion-header {
     background: transparent !important;
     opacity: 80%;
-}
-
-.accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 3px;
-    font-size: 4vh;
-    filter: blur(0.8px);
-    background: transparent;
-    color: #7b8aba;
-    text-shadow: 4px 3px 10px #6b7edb, 
-                 2px 5px 3px #222629 !important; 
 }
 
 .accordion-body {
@@ -680,7 +647,7 @@ h1 {
  body {
   filter: contrast(70%);
   opacity: 100%;
-  background-image: url("/../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -779,17 +746,6 @@ h1 {
 .accordion-header {
     background: transparent !important;
     opacity: 80%;
-}
-
-.accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 3px;
-    font-size: 4vh;
-    filter: blur(0.8px);
-    background: transparent;
-    color: #7b8aba;
-    text-shadow: 4px 3px 10px #6b7edb, 
-                 2px 5px 3px #222629 !important; 
 }
 
 .accordion-body {
@@ -852,7 +808,7 @@ h1 {
  body {
   filter: contrast(70%);
   opacity: 100%;
-  background-image: url("/../Images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -860,22 +816,22 @@ h1 {
 
 .title {   
   color: #a8afff;
-  font-family: Akira Expanded;
-  letter-spacing: 10px;
+  font-family: Alte Haas Grotesk;
+  letter-spacing: 12px;
   text-shadow: 50px 25px 8px #646e91, 
                10px 10px 7px #222629; 
-  opacity: 70%;
-  filter: blur(2px);
+  opacity: 60%;
+  filter: blur(2.5px);
 }
 
 h1 {
-  font-size: 8vh !important;
+  font-size: 10vh !important;
 }
 
 .link a{
   font-family: Noto Sans Light;
   color: #cdd6ff;
-  font-size: 1.3vw !important;
+  font-size: 2.5vh !important;
   text-align: left;
   text-decoration: none;
   letter-spacing: 5px;
@@ -934,7 +890,7 @@ h1 {
 
 .hrClass {
   border-color: #3b4f5f !important;
-  top: 100px;
+  top: 70px;
 }
 
 .div2 {
@@ -956,9 +912,9 @@ h1 {
 }
 
 .accordion-button {
-    font-family: akira expanded;
-    letter-spacing: 7px;
-    font-size: 5vh;
+    font-family: Alte Haas Grotesk;
+    letter-spacing: 10px;
+    font-size: 7vh;
     filter: blur(1.5px);
     background: transparent !important;
     color: #7b8aba !important;
@@ -976,7 +932,7 @@ h1 {
   font-size: 1.9vh;
   background: transparent;
   opacity: 70%;
-  max-height: 50vh;
+  max-height: 40vh;
   width: 75% !important;
 }
 
@@ -1016,7 +972,7 @@ h1 {
   filter: blur(0.7px) 
           contrast(110%);
   letter-spacing: 0.5px;
-  bottom: -130px;
+  bottom: -60px;
 }
 
 }
