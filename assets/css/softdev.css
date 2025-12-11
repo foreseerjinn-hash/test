@@ -9,18 +9,19 @@
 }
 
 .title {   
-  color: #a8afff;
+  color: #b7ccdf;
   font-family: Alte Haas Grotesk;
-  letter-spacing: 7px;
-  text-shadow: 30px 20px 8px #646e91, 
-               10px 10px 70px #9ca8f3; 
+  letter-spacing: 1px;
+  text-shadow: 30px 20px 8px #7a84a3, 
+               10px 10px 70px #222930; 
   opacity: 60%;
-  filter: blur(1.5px);
+  filter: blur(1.7px);
 }
 
 h1 {
-  font-size: 6.5vh !important;
+  font-size: 18vw !important;
 }
+
 
 .link a{
   font-family: Noto Sans Light;
@@ -29,8 +30,8 @@ h1 {
   text-align: left;
   text-decoration: none;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 6px #96a3e8, 
-               2px 2px 6px #222629 !important; 
+  text-shadow: 2px 2px 6px #949FAB, 
+               2px 2px 6px #87bcef !important; 
   filter: blur(0.8px) 
           contrast(110%);
   opacity: 110%;
@@ -40,6 +41,10 @@ h1 {
   animation-name: link1;
   animation-duration: 1.8s;
   animation-fill-mode: forwards;
+}
+
+#link1:hover {
+  font-weight: bold !important;
 }
 
 @keyframes link1 {
@@ -57,6 +62,10 @@ h1 {
   animation-fill-mode: forwards;
 }
 
+#link2:hover {
+  font-weight: bold !important;
+}
+
 @keyframes link2 {
   from {left: -100px;
         opacity: 0%;}
@@ -70,6 +79,10 @@ h1 {
   animation-duration: 1.8s;
   animation-delay: 2.2s;
   animation-fill-mode: forwards;
+}
+
+#link3:hover {
+  font-weight: bold !important;
 }
 
 @keyframes link3 {
@@ -102,13 +115,18 @@ h1 {
 
 .accordion-button {
     font-family: Alte Haas Grotesk;
-    letter-spacing: 7px;
-    font-size: 5vh;
+    letter-spacing: 10px;
+    font-size: 15vw;
     filter: blur(0.8px);
     background: transparent !important;
-    color: #7b8aba !important;
-    text-shadow: 5px 5px 10px #4952a7,
-               -5px -3px 8px #2b2f31; !important; 
+    color: #94a4d7 !important;
+    text-shadow: 5px 5px 10px #738290,
+               -5px -3px 8px #677e89 !important; 
+}
+
+.accordion-button:hover {
+  color: #b6c6fe !important;
+  font-size: 15.5vw !important;
 }
 
 .accordion-body {
@@ -122,7 +140,7 @@ h1 {
   font-size: 1.7vh;
   background: transparent;
   opacity: 70%;
-  max-height: 43vh;
+  max-height: 30vh;
 }
 
 .accordion-collapse:active {
@@ -137,8 +155,8 @@ h1 {
 
 .accordion-body a:hover {
   font-weight: bold;
-  color: #e9eeff;
-  text-shadow: 1px 2px 3px #90a4ff, 
+  color: #86cff1;
+  text-shadow: 1px 2px 3px #aebdff, 
                  1px 1px 7px #eaf6ff !important; 
 }
 
@@ -156,11 +174,11 @@ h1 {
 
 .foot {
   font-family: monospace;
-  font-size: 2vh !important;
-  color: #cde6ff;  
+  color: #cdd6ff;  
   filter: blur(0.7px) 
           contrast(110%);
-  letter-spacing: 0.5px;
+  letter-spacing: 1.8px;
+  opacity: 60%;
 }
 
 @media (min-width: 576px) { 
@@ -211,49 +229,55 @@ h1 {
 }
 
 #link1 { 
-  left: -100px;
-  opacity: 0%;
-  transition: left 1s, opacity 2s;
+  left: -100px !important;
+  opacity: 0% !important;
+  transition: left 1s, 
+              opacity 2s !important;
+  animation: none !important;
 }
 
-.link:hover > #link1 {
-  transition: left 1s, opacity 2s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+#link1:hover {
+  transition: left 1s, 
+              opacity 2s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link2 {
-  left: -100px;
-  opacity: 0%;
+  left: -100px !important;
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 0.5s;
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  animation: none !important;
 }
 
 .link:hover > #link2 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 0.5s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link3 {
-  left: -100px; 
-  opacity: 0%;
+  left: -100px !important; 
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  animation: none !important;
 }
 
 .link:hover > #link3 {
   transition: left 1s, 
-  opacity 2s;
-  transition-delay: 1s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 .hrClass {
@@ -307,11 +331,12 @@ h1 {
 
 .foot {
   font-family: monospace;
-  font-size: 2vh !important;
+  font-size: 1.5vw !important;
   color: #cde6ff;  
   filter: blur(0.7px) 
           contrast(110%);
   letter-spacing: 0.5px;
+  bottom: 20px;
 }
 
 }
@@ -815,17 +840,17 @@ h1 {
 }
 
 .title {   
-  color: #a8afff;
+  color: #b7ccdf;
   font-family: Alte Haas Grotesk;
-  letter-spacing: 12px;
-  text-shadow: 50px 25px 8px #646e91, 
-               10px 10px 7px #222629; 
+  letter-spacing: 1px;
+  text-shadow: 50px 40px 9px #7a84a3, 
+               10px 10px 70px #222930; 
   opacity: 60%;
-  filter: blur(2.5px);
+  filter: blur(2.2px);
 }
 
 h1 {
-  font-size: 10vh !important;
+  font-size: 11vh !important;
 }
 
 .link a{
@@ -843,49 +868,55 @@ h1 {
 }
 
 #link1 { 
-  left: -100px;
-  opacity: 0%;
-  transition: left 1s, opacity 2s;
+  left: -100px !important;
+  opacity: 0% !important;
+  transition: left 1s, 
+              opacity 2s !important;
+  animation: none !important;
 }
 
-.link:hover > #link1 {
-  transition: left 1s, opacity 2s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+#link1:hover {
+  transition: left 1s, 
+              opacity 2s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link2 {
-  left: -100px;
-  opacity: 0%;
+  left: -100px !important;
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 0.5s;
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  animation: none !important;
 }
 
 .link:hover > #link2 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 0.5s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link3 {
-  left: -100px; 
-  opacity: 0%;
+  left: -100px !important; 
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  animation: none !important;
 }
 
 .link:hover > #link3 {
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 .hrClass {
@@ -913,13 +944,19 @@ h1 {
 
 .accordion-button {
     font-family: Alte Haas Grotesk;
-    letter-spacing: 10px;
-    font-size: 7vh;
-    filter: blur(1.5px);
+    letter-spacing: 1px;
+    font-size: 4vw;
+    filter: blur(2px);
     background: transparent !important;
-    color: #7b8aba !important;
-    text-shadow: 7px 5px 20px #6b7edb, 
-                 2px 6px 5px #222629 !important; 
+    color: #94a4d7 !important;
+    text-shadow: 5px 5px 10px #738290,
+               -5px -3px 8px #677e89 !important; 
+    transition: font-size 1s;
+}
+
+.accordion-button:hover {
+  color: #b6c6fe !important;
+  font-size: 15.5vw;
 }
 
 .accordion-body {
@@ -932,7 +969,7 @@ h1 {
   font-size: 1.9vh;
   background: transparent;
   opacity: 70%;
-  max-height: 40vh;
+  max-height: 33vh;
   width: 75% !important;
 }
 
@@ -954,20 +991,18 @@ h1 {
 }
 
 .vidHTML {
-  width: 40vw !important;
-  height: 30vh !important;
+  height: 50vh !important;
   filter: invert(100%);
 }
 
 .vidCSS {
-  width: 40vw !important;
-  height: 30vh !important;
+  height: 50vh !important;
   filter: invert(100%);
 }
 
 .foot {
   font-family: monospace;
-  font-size: 1.5vh !important;
+  font-size: 1vw !important;
   color: #cde6ff;  
   filter: blur(0.7px) 
           contrast(110%);

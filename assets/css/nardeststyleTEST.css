@@ -10,17 +10,17 @@ body {
 }
 
 .title {   
-  color: #a8afff;
+  color: #b7ccdf;
   font-family: Alte Haas Grotesk;
-  letter-spacing: 7px;
-  text-shadow: 30px 20px 8px #646e91, 
-               10px 10px 70px #9ca8f3; 
+  letter-spacing: 1px;
+  text-shadow: 30px 20px 8px #7a84a3, 
+               10px 10px 70px #222930; 
   opacity: 60%;
-  filter: blur(1.5px);
+  filter: blur(1.7px);
 }
 
 h1 {
-  font-size: 6.5vh !important;
+  font-size: 18vw !important;
 }
 
 .link a{
@@ -30,8 +30,8 @@ h1 {
   text-align: left;
   text-decoration: none;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 6px #96a3e8, 
-               2px 2px 6px #222629 !important; 
+  text-shadow: 2px 2px 6px #949FAB, 
+               2px 2px 6px #87bcef !important;  
   filter: blur(0.8px) 
           contrast(110%);
   opacity: 110%;
@@ -41,6 +41,10 @@ h1 {
   animation-name: link1;
   animation-duration: 1.8s;
   animation-fill-mode: forwards;
+}
+
+#link1:hover {
+  font-weight: bold;
 }
 
 @keyframes link1 {
@@ -58,6 +62,10 @@ h1 {
   animation-fill-mode: forwards;
 }
 
+#link2:hover {
+  font-weight: bold;
+}
+
 @keyframes link2 {
   from {left: -100px;
         opacity: 0%;}
@@ -71,6 +79,10 @@ h1 {
   animation-duration: 1.8s;
   animation-delay: 2.2s;
   animation-fill-mode: forwards;
+}
+
+#link3:hover {
+  font-weight: bold;
 }
 
 @keyframes link3 {
@@ -113,10 +125,11 @@ h1 {
 
 .head {
   font-family: Alte Haas Grotesk;
-  text-shadow: 5px 5px 10px #4952a7,
-               -5px -3px 8px #2b2f31;
-  font-size: 8vw;
-  letter-spacing: 5px;
+  color: #94a4d7 !important;
+  text-shadow: 5px 5px 10px #738290,
+               -5px -3px 8px #677e89 !important; 
+  font-size: 11vw;
+  letter-spacing: 1px;
   opacity: 90%;
   filter: blur(1.2px);
 }
@@ -432,14 +445,17 @@ p {
 }
 
 .title {   
-  letter-spacing: 12px;
-  text-shadow: 50px 25px 8px #646e91, 
-               10px 10px 7px #222629; 
-  filter: blur(2.7px);
+  color: #b7ccdf;
+  font-family: Alte Haas Grotesk;
+  letter-spacing: 1px;
+  text-shadow: 50px 40px 9px #7a84a3, 
+               10px 10px 70px #222930; 
+  opacity: 60%;
+  filter: blur(2.2px);
 }
 
 h1 {
-  font-size: 10vh !important;
+  font-size: 11vh !important;
 }
 
 .link a{
@@ -457,49 +473,55 @@ h1 {
 }
 
 #link1 { 
-  left: -100px;
-  opacity: 0%;
-  transition: left 1s, opacity 2s;
+  left: -100px !important;
+  opacity: 0% !important;
+  transition: left 1s, 
+              opacity 2s !important;
+  animation: none !important;
 }
 
-.link:hover > #link1 {
-  transition: left 1s, opacity 2s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+#link1:hover {
+  transition: left 1s, 
+              opacity 2s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link2 {
-  left: -100px;
-  opacity: 0%;
+  left: -100px !important;
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 0.5s;
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  animation: none !important;
 }
 
 .link:hover > #link2 {
-  transition: left 1s, opacity 2s;
-  transition-delay: 0.5s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+  transition: left 1s, 
+              opacity 2s !important;
+  transition-delay: 0.5s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 #link3 {
-  left: -100px; 
-  opacity: 0%;
+  left: -100px !important; 
+  opacity: 0% !important;
   transition: left 1s, 
-              opacity 2s;
-  transition-delay: 1s;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  animation: none !important;
 }
 
 .link:hover > #link3 {
   transition: left 1s, 
-  opacity 2s;
-  transition-delay: 1s;
-  left: 0;
-  opacity: 80%;
-  width: 70%;
+              opacity 2s !important;
+  transition-delay: 1s !important;
+  left: 0 !important;
+  opacity: 80% !important;
+  width: 70% !important;
 }
 
 .hrClass {
@@ -526,8 +548,8 @@ h1 {
 
 .head {
   color: #9facf9;
-  font-size: 2.5vw;
-  letter-spacing: 13px;
+  font-size: 4vw;
+  letter-spacing: 1px;
   filter: blur(1.8px);
   text-shadow: 5px 5px 20px #353d84,
                -5px -3px 8px #2b2f31;

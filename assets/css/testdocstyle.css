@@ -9,17 +9,17 @@ body {
 }
 
 .title {   
-  color: #a8afff;
+  color: #b7ccdf;
   font-family: Alte Haas Grotesk;
-  letter-spacing: 7px;
-  text-shadow: 30px 20px 8px #646e91, 
-               10px 10px 70px #9ca8f3; 
+  letter-spacing: 1px;
+  text-shadow: 30px 20px 8px #7a84a3, 
+               10px 10px 70px #222930; 
   opacity: 60%;
-  filter: blur(1.5px);
+  filter: blur(1.7px);
 }
 
 h1 {
-  font-size: 6.5vh !important;
+  font-size: 18vw !important;
 }
 
 .link a{
@@ -29,8 +29,8 @@ h1 {
   text-align: left;
   text-decoration: none;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 6px #96a3e8, 
-               2px 2px 6px #222629 !important; 
+  text-shadow: 2px 2px 6px #949FAB, 
+               2px 2px 6px #87bcef !important;  
   filter: blur(0.8px) 
           contrast(110%);
   opacity: 110%;
@@ -40,6 +40,10 @@ h1 {
   animation-name: link1;
   animation-duration: 1.8s;
   animation-fill-mode: forwards;
+}
+
+#link1:hover {
+  font-weight: bold !important;
 }
 
 @keyframes link1 {
@@ -57,6 +61,10 @@ h1 {
   animation-fill-mode: forwards;
 }
 
+#link2:hover {
+  font-weight: bold !important;
+}
+
 @keyframes link2 {
   from {left: -100px;
         opacity: 0%;}
@@ -70,6 +78,10 @@ h1 {
   animation-duration: 1.8s;
   animation-delay: 2.2s;
   animation-fill-mode: forwards;
+}
+
+#link3:hover {
+  font-weight: bold !important;
 }
 
 @keyframes link3 {
@@ -102,55 +114,50 @@ h1 {
 }
 
 .intro {
-  font-family: Noto Sans Light;
-  color: #cdd6ff;
-  text-shadow: 2px 1px 9px #cdd6ff,
-               -2px -1px 9px #cdd6ff;
   box-shadow: 20px -20px 300px #4a5262,
               200px 300px 200px #22292e,
               0 0 10px #22292e;
-  letter-spacing: 2px;
   left: 200px;
-  opacity: 0%;
-  transition: .5s ease;
-  transition-delay: 1s;
+  opacity: 90%;
   background-color: #212529;
   width: 300px;
   height: 150px;
   border-radius: 8px;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 .header1 {
   font-family: Alte Haas Grotesk;
-  text-shadow: 5px 5px 10px #4952a7,
-               -5px -3px 8px #2b2f31;
+  color: #94a4d7 !important;
+  text-shadow: 5px 5px 10px #738290,
+               -5px -3px 8px #677e89 !important; 
   filter: blur(1.2px);
+  letter-spacing: 1px;
+  font-size: 8vw !important;
 }
 
 .para {
+  text-shadow: 2px 1px 9px #cdd6ff,
+               -2px -1px 9px #cdd6ff;
+  font-family: Noto Sans Light;
+  color: #cdd6ff;            
   text-align: justify;
   font-size: 1.8vh !important;
   letter-spacing: 1px;
   filter: blur(0.5px);
 }
 
-.overlay:hover .carousel-inner {
-  opacity: 0.3;
-}
-
-.overlay:hover .intro {
-  opacity: 90% !important;
-}
-
 .foot {
   font-family: monospace;
-  font-size: 1.5vh !important;
-  color: #cde6ff;  
+  color: #cdd6ff;  
   filter: blur(0.7px) 
           contrast(110%);
-  letter-spacing: 0.5px;
-  bottom: -60px;
+  letter-spacing: 1.8px;
+  opacity: 60%;
+}
+
+p {
+  font-size: 3.3vw;
 }
 
 @media (min-width: 576px) { 
@@ -478,15 +485,17 @@ p {
 }
 
 .title {   
-  letter-spacing: 12px;
-  text-shadow: 50px 25px 8px #646e91, 
-               10px 10px 7px #222629; 
+  color: #b7ccdf;
+  font-family: Alte Haas Grotesk;
+  letter-spacing: 1px;
+  text-shadow: 50px 40px 9px #7a84a3, 
+               10px 10px 70px #222930; 
   opacity: 60%;
-  filter: blur(2.5px);
+  filter: blur(2.2px);
 }
 
 h1 {
-  font-size: 10vh !important;
+  font-size: 11vh !important;
 }
 
 .link a{
@@ -503,7 +512,7 @@ h1 {
 }
 
 #link1 { 
-  left: -100px !important;
+  left: -70px !important;
   opacity: 0% !important;
   transition: left 1s, 
               opacity 2s !important;
@@ -575,20 +584,52 @@ img {
   left: 350px;
 }
 
+.overlay:hover .carousel-inner {
+  opacity: 0.3 !important;
+}
+
+.overlay:hover .intro {
+  opacity: 90% !important;
+}
+
 .intro {
-  letter-spacing: 2px;
+  opacity: 0%;
+  letter-spacing: 1px;
   top: 213px;
   height: 75% !important;
+  transition: .5s ease;
+  transition-delay: 1s;
+}
+
+.header1 {
+  font-family: Alte Haas Grotesk;
+  color: #94a4d7 !important;
+  text-shadow: 5px 5px 10px #738290,
+               -5px -3px 8px #677e89 !important; 
+  filter: blur(1.2px);
+  letter-spacing: 1px;
+  font-size: 3vw !important;
+}
+
+.para {
+  text-shadow: 2px 1px 9px #cdd6ff,
+               -2px -1px 9px #cdd6ff;
+  font-family: Noto Sans Light;
+  color: #cdd6ff;            
+  text-align: justify;
+  font-size: 1.2vw !important;
+  letter-spacing: 1px;
+  filter: blur(0.5px);
 }
 
 .foot {
   font-family: monospace;
-  font-size: 1.5vh !important;
+  font-size: 1vw !important;
   color: #cde6ff;  
   filter: blur(0.7px) 
           contrast(110%);
   letter-spacing: 0.5px;
-  bottom: 40px;
+  bottom: -60px;
 }
 
 }
