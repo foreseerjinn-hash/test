@@ -118,7 +118,7 @@ h1 {
   width: 300px;
   height: 150px;
   border-radius: 8px;
-  overflow-x: hidden;
+  overflow-x: none;
 }
 
 .header1 {
