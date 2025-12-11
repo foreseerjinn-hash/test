@@ -2,7 +2,7 @@
 body {
   filter: contrast(80%);
   opacity: 100%;
-  background-image: url("/../images/oil3.jpg");
+  background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -10,7 +10,7 @@ body {
 
 .title {   
   color: #a8afff;
-  font-family: Akira Expanded;
+  font-family: Alte Haas Grotesk;
   letter-spacing: 10px;
   text-shadow: 30px 20px 8px #646e91, 
                10px 10px 70px #222629; 
