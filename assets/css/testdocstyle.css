@@ -101,7 +101,6 @@ h1 {
 }
 
 .overlay {
- 
   height: 100%;
 }
 
@@ -627,8 +626,8 @@ img {
 .foot {
   font-family: monospace;
   font-size: 1vw !important;
-  text-shadow: 2px 3px 6px #96a3e8, 
-               -2px -3px 6px #7f919f !important;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               -2px -2px 6px #7f919f !important; 
   color: #cde6ff;  
   filter: blur(0.7px) 
           contrast(110%);
