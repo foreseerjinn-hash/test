@@ -29,9 +29,9 @@ h1 {
   font-size: 4vw !important;
   text-align: left;
   text-decoration: none;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 6px #949FAB, 
-               2px 2px 6px #87bcef !important; 
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               -2px -2px 6px #7f919f !important; 
   filter: blur(0.8px) 
           contrast(110%);
   opacity: 110%;
@@ -121,7 +121,7 @@ h1 {
     background: transparent !important;
     color: #94a4d7 !important;
     text-shadow: 5px 5px 10px #738290,
-               -5px -3px 8px #677e89 !important; 
+                 -5px -3px 8px #677e89 !important; 
 }
 
 .accordion-button:hover {
@@ -175,6 +175,8 @@ h1 {
 .foot {
   font-family: monospace;
   color: #cdd6ff;  
+  text-shadow: 2px 2px 6px #96a3e8, 
+               -2px -2px 6px #7f919f !important; 
   filter: blur(0.7px) 
           contrast(110%);
   letter-spacing: 1.8px;
@@ -836,7 +838,8 @@ h1 {
   background-image: url("Images/oil3.jpg");
   background-blend-mode: color-dodge, screen;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: 100% 100%; 
+  overflow: hidden;
 }
 
 .title {   
@@ -860,8 +863,8 @@ h1 {
   text-align: left;
   text-decoration: none;
   letter-spacing: 5px;
-  text-shadow: 3px 5px 8px #96a3e8, 
-               2px 5px 3px #222629 !important; 
+  text-shadow: 2px 2px 6px #96a3e8, 
+               -2px -2px 6px #7f919f !important; 
   filter: blur(1px) 
           contrast(110%);
   opacity: 110%;
@@ -1003,6 +1006,8 @@ h1 {
 .foot {
   font-family: monospace;
   font-size: 1vw !important;
+  text-shadow: 2px 2px 6px #96a3e8, 
+               -2px -2px 6px #7f919f !important; 
   color: #cde6ff;  
   filter: blur(0.7px) 
           contrast(110%);
@@ -1011,15 +1016,3 @@ h1 {
 }
 
 }
-
-@include media-breakpoint-up(xs) {}
-
-@include media-breakpoint-up(sm) {}
-
-@include media-breakpoint-up(md) {}
-
-@include media-breakpoint-up(lg) {}
-
-@include media-breakpoint-up(xl) {}
-
-@include media-breakpoint-up(xxl) {}
